@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/featuredStyle.css">
+    <title>Document</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+</head>
+
+<body>
+
+    <main class="main">
+        <header class="header">
+            <div class="header__text">Let`s do it together!</div>
+        </header>
+        <div class="main__swich-block">
+            <div class="main__first active-swich">I do not have a cite</div>
+            <div class="main__second">I have a cite</div>
+        </div>
+        <div class="main__first-card active-card">
+            <span>Your name:</span>
+            <input type="text" placeholder="Name">
+            <span>Your e-mail:</span>
+            <input type="email" placeholder="email@gmail.com">
+            <span>Alternative ways to contact you?</span>
+            <input type="radio" name="altWays" id="altWays1" checked>
+            <input type="radio" name="altWays" id="altWays2">
+            <input type="radio" name="altWays" id="altWays3">
+            <label for="altWays1"><ion-icon name="logo-facebook"></ion-icon></label>
+            <label for="altWays2"><ion-icon name="logo-instagram"></ion-icon></label>
+            <label for="altWays3"><ion-icon name="logo-whatsapp"></ion-icon></label>
+            <input type="text" placeholder="Enter you profile-name">
+            <span>Are you a person or a company?</span>
+            <input type="radio" name="personalNon" id="personalNon1" checked>
+            <input type="radio" name="personalNon" id="personalNon2">
+            <label for="personalNon1">Person</label>
+            <label for="personalNon2">Company</label>
+            <span>Your country:</span>
+            <select>
+                <option>USA</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option selected>Ukraine</option>
+                <option>Poland</option>
+                <option>China</option>
+            </select>
+            <span>Tell us something about your future cite:</span>
+            <textarea placeholder="Your text..."></textarea>
+            <span id="policy-span">I agree wi the privacy policy.</span>
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy" id="policy-label"></label>
+            <button type="submit">Submit</button>
+        </div>
+        <div class="main__second-card">
+            <span>Your name:</span>
+            <input type="text" placeholder="Name">
+            <span>Your e-mail:</span>
+            <input type="email" placeholder="email@gmail.com">
+            <span>Alternative ways to contact you?</span>
+            <input type="radio" name="altWays1" id="altWays4" checked>
+            <input type="radio" name="altWays1" id="altWays5">
+            <input type="radio" name="altWays1" id="altWays6">
+            <label for="altWays4"><ion-icon name="logo-facebook"></ion-icon></label>
+            <label for="altWays5"><ion-icon name="logo-instagram"></ion-icon></label>
+            <label for="altWays6"><ion-icon name="logo-whatsapp"></ion-icon></label>
+            <input type="text" placeholder="Enter you profile-name">
+            <span>Your cite link:</span>
+            <input type="email" placeholder="http:\\link.com">
+            <span>Your country:</span>
+            <select>
+                <option>USA</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option selected>Ukraine</option>
+                <option>Poland</option>
+                <option>China</option>
+            </select>
+            <span id="policy-span">I agree wi the privacy policy.</span>
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy" id="policy-label"></label>
+            <button type="submit">Submit</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo"><img src="img/logo-black.png" alt=""></div>
+        <div class="footer__text">Copyright 2022. All rights Reserved</div>
+        <div class="footer__img">
+            <a href=""><img src="img/facebook.png" alt=""></a>
+            <a href=""><img src="img/twitter.png" alt=""></a>
+            <a href=""><img src="img/linkedin.png" alt=""></a>
+            <a href=""><img src="img/instagramm.png" alt=""></a>
+            <a href=""><img src="img/vimeo.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="js/featuredJs.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
