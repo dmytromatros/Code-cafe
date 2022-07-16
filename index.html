@@ -1,1110 +1,1280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
 
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- FONTS -->
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main-block">
-        <header class="header">
-            <div class="content-main">
-                <div class="header__inner">
-                    <div class="header__logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="heart-num" id="heart-num">
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <div>0</div>
-                    </div>
-                    <div class="header__menu menu">
-                        <ul>
-                            <li id="menu-hello" class="active-menu">Hello</li>
-                            <li id="menu-about">About</li>
-                            <li id="menu-services">Services</li>
-                            <li id="menu-portfolio">Portfolio</li>
-                            <li id="menu-team">Team</li>
-                            <li id="menu-blog">Blog</li>
-                            <li id="menu-contact">Contact</li>
-                        </ul>
-                    </div>
-                    <div class="header-burger">
-                        <img src="img/burger.svg" alt="">
-                    </div>
-                </div>
+      <header class="header">
+        <div class="content-main">
+          <div class="header__inner">
+            <div class="header__logo">
+              <img src="img/logo.png" alt="" />
             </div>
-            <div class="burger-menu menu">
-                <ul>
-                    <li id="menu-hello-small">Hello</li>
-                    <li id="menu-about-small">About</li>
-                    <li id="menu-services-small">Services</li>
-                    <li id="menu-portfolio-small">Portfolio</li>
-                    <li id="menu-team-small">Team</li>
-                    <li id="menu-blog-small">Blog</li>
-                    <li id="menu-contact-small">Contact</li>
-                </ul>
+            <div class="heart-num" id="heart-num">
+              <ion-icon name="heart-outline"></ion-icon>
+              <div>0</div>
             </div>
-        </header>
-        <div class="main-block__bg">
-            <div class="content-main">
-                <div class="main-block__inner">
-                    <div class="main-block__main-text">
-                        We Are Code Cafe
-                    </div>
-                    <div class="main-block__subtitle">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    </div>
-                    <div class="main-block__scroll-btn" on>
-                        <button class="scroll-btn" id="#main-block__scroll-btn">
-								<img src="img/main-btn.png" alt="">
-							</button>
-                    </div>
-                </div>
-
+            <div class="header__menu menu">
+              <ul>
+                <li id="menu-hello" class="active-menu">Hello</li>
+                <li id="menu-about">About</li>
+                <li id="menu-services">Services</li>
+                <li id="menu-portfolio">Portfolio</li>
+                <li id="menu-team">Team</li>
+                <li id="menu-blog">Blog</li>
+                <li id="menu-contact">Contact</li>
+              </ul>
             </div>
+            <div class="header-burger">
+              <img src="img/burger.svg" alt="" />
+            </div>
+          </div>
         </div>
-
+        <div class="burger-menu menu">
+          <ul>
+            <li id="menu-hello-small">Hello</li>
+            <li id="menu-about-small">About</li>
+            <li id="menu-services-small">Services</li>
+            <li id="menu-portfolio-small">Portfolio</li>
+            <li id="menu-team-small">Team</li>
+            <li id="menu-blog-small">Blog</li>
+            <li id="menu-contact-small">Contact</li>
+          </ul>
+        </div>
+      </header>
+      <div class="main-block__bg">
+        <div class="content-main">
+          <div class="main-block__inner">
+            <div class="main-block__main-text">We Are Code Cafe</div>
+            <div class="main-block__subtitle">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum
+            </div>
+            <div class="main-block__scroll-btn" on>
+              <button class="scroll-btn" id="#main-block__scroll-btn">
+                <img src="img/main-btn.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="about-block">
-        <div class="about-first">
-            <div class="content-small">
-                <div class="about-first__inner">
-                    <div class="about-first__text">
-                        <div class="about-first__title">
-                            This is Bouncy
-                        </div>
-                        <div class="about-first__subtitle">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-                            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-                        </div>
-                        <div class="about-first__btn">
-                            <a href="#">Read more</a>
-                        </div>
-                    </div>
-                    <div class="about-first__img">
-                        <img src="img/ipad.png" alt="">
-                    </div>
-                </div>
+      <div class="about-first">
+        <div class="content-small">
+          <div class="about-first__inner">
+            <div class="about-first__text">
+              <div class="about-first__title">This is Bouncy</div>
+              <div class="about-first__subtitle">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+                rerum facilis est et expedita distinctio.
+              </div>
+              <div class="about-first__btn">
+                <a href="#">Read more</a>
+              </div>
             </div>
+            <div class="about-first__img">
+              <img src="img/ipad.png" alt="" />
+            </div>
+          </div>
         </div>
-        <div class="about-second">
-            <div class="content-small">
-                <div class="about-second__inner">
-                    <div class="about-second__title all-title">
-                        DetailS ABOUT BOUNCY
-                    </div>
-                    <div class="about-second__subtitle all-subtitle">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                    </div>
-                    <div class="about-second__icons">
-                        <div class="about-icon">
-                            <img src="img/ellipse.png" alt="">
-                            <img src="img/hart.png" alt="">
-                        </div>
-                        <div class="about-icon">
-                            <img src="img/ellipse.png" alt="">
-                            <img src="img/mouse.png" alt="">
-                        </div>
-                        <div class="about-icon">
-                            <img src="img/ellipse.png" alt="">
-                            <img src="img/lamp.png" alt="">
-                        </div>
-                    </div>
-                    <div class="left-text__title">
-                        Creative Ideas
-                    </div>
-                    <div class="about-second__text">
+      </div>
+      <div class="about-second">
+        <div class="content-small">
+          <div class="about-second__inner">
+            <div class="about-second__title all-title">
+              DetailS ABOUT BOUNCY
+            </div>
+            <div class="about-second__subtitle all-subtitle">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </div>
+            <div class="about-second__icons">
+              <div class="about-icon">
+                <img src="img/ellipse.png" alt="" />
+                <img src="img/hart.png" alt="" />
+              </div>
+              <div class="about-icon">
+                <img src="img/ellipse.png" alt="" />
+                <img src="img/mouse.png" alt="" />
+              </div>
+              <div class="about-icon">
+                <img src="img/ellipse.png" alt="" />
+                <img src="img/lamp.png" alt="" />
+              </div>
+            </div>
+            <div class="left-text__title">Creative Ideas</div>
+            <div class="about-second__text">
+              <div class="about-second__left-text">
+                At <span class="green-text">vero</span> eos et accusamus et
+                iusto odio dignissimos
+                <span class="bold-text">ducimus</span> qui blanditiis
+                praesentium voluptatum deleniti atque corrupti quos dolores
+              </div>
+              <div class="about-second__right-text">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque
+                <span class="bold-text"> corrupti quos</span> dolores et quas
+                molestias <span class="green-text">excepturi</span> sint
+                occaecati cupiditate non provident,
+                <span class="bold-text">similique</span> sunt in culpa qui
+                officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                Et harum quidem r
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                        <div class="about-second__left-text">
-                            At <span class="green-text">vero</span> eos et accusamus et iusto odio dignissimos <span class="bold-text">ducimus</span> qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-                        </div>
-                        <div class="about-second__right-text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque <span class="bold-text"> corrupti quos</span> dolores et quas molestias <span class="green-text">excepturi</span>                            sint occaecati cupiditate non provident, <span class="bold-text">similique</span> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="about-block__read-more">
-            <div class="about-block__read-more__close">Back</div>
-            <div class="about-block__read-more__title">
-                THIS IS BOUNCY
-            </div>
-            <div class="about-block__read-more__title-small">
-                History
-            </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima suscipit ad esse ex architecto corporis, maiores porro nulla omnis dicta vel tenetur optio commodi eligendi ut animi mollitia magnam. Dolor perferendis sapiente soluta eum, odit
-            nihil ducimus magnam nesciunt totam placeat harum ipsam voluptatem qui provident enim! Aliquam, laudantium libero! Alias eum ex voluptatibus blanditiis numquam ipsa, quod distinctio voluptatem itaque recusandae! Consectetur molestias dolorem
-            cum magni debitis sint nihil! Voluptatum ex incidunt mollitia minus natus temporibus modi corporis ipsam perspiciatis vitae maxime autem tempora assumenda inventore nam quisquam officia ullam aliquam quam dolor dolore unde, pariatur doloribus?
-            <div class="about-block__read-more__title-small">
-                Foundation
-            </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus obcaecati numquam aliquam, distinctio laboriosam saepe dignissimos nihil porro exercitationem, expedita eos deleniti impedit quod vel incidunt quasi nisi? Corporis animi optio cumque,
-            quis odio, minima minus aspernatur ratione voluptates voluptate accusantium at doloribus tempora, excepturi sunt! Obcaecati, nobis molestias maiores architecto doloribus tempore possimus, optio tempora ad consequatur minus error perferendis
-            accusantium hic voluptatibus voluptatem! Sequi sit eius maxime culpa. Alias harum nostrum omnis qui magni iste vero, sunt consequatur dolores, expedita pariatur debitis praesentium laborum illo consequuntur rem dolorum? Amet, minima sunt blanditiis
-            possimus quidem corrupti aspernatur quae quos illum. Assumenda dicta autem eveniet recusandae excepturi corporis, perspiciatis reprehenderit accusamus nihil ullam perferendis, tenetur ipsa? Quis tempore distinctio labore optio dolore repudiandae
-            autem neque dignissimos, fugiat facilis exercitationem. Voluptates id, repellat illum animi corporis nobis hic fugiat error reiciendis libero doloribus quis laudantium quam laboriosam consequuntur nemo pariatur, inventore doloremque omnis!
-            <div class="about-block__read-more__title-small">
-                First project
-            </div>
-            Consequatur quo quaerat neque temporibus ipsum laboriosam numquam expedita? Exercitationem, ab excepturi aliquid consectetur laborum voluptates facilis aperiam quisquam omnis quidem maiores mollitia impedit, rem qui, aut non? Quia sint eum ipsa doloribus
-            a. Deleniti laborum libero suscipit repellendus, error excepturi dolore dolorum nulla provident cum a officia vitae voluptatem, sit quasi iusto odit eius hic! Repudiandae cum illum vero aut reiciendis asperiores magnam sed ullam impedit velit
-            minima vitae sunt obcaecati debitis ut illo blanditiis consequatur dolores iste quas, saepe nihil? Laboriosam consectetur architecto animi consequuntur dolores. Vel commodi reiciendis, facere, ducimus aut deserunt ipsam fuga expedita quam
-            minima totam qui, vero natus? Eius amet atque animi dolorem nulla. Asperiores modi qui quo ut, error, dolor libero dignissimos animi ipsa, fugit sapiente incidunt sed cupiditate excepturi autem labore. Accusamus assumenda, possimus laborum,
-            dolorem, facere debitis iure et obcaecati tempora vel ducimus magnam non error accusantium nobis. Minima perspiciatis corrupti, eligendi, dolor incidunt fugiat beatae veritatis consequatur ducimus dicta quisquam, dolorem sapiente laboriosam
-            similique? Adipisci fugit, quaerat magni deleniti dolorum fuga, ipsam architecto veritatis est suscipit repellendus praesentium nulla perferendis sapiente nemo porro expedita ex. Vitae accusantium reprehenderit consequatur perspiciatis beatae
-            et pariatur officia ut vel recusandae libero delectus consectetur odit repudiandae magnam debitis, praesentium architecto molestiae quod labore molestias voluptatem modi commodi vero! Asperiores animi maiores saepe consequuntur alias odit
-            <div class="about-block__read-more__title-small">
-                Choose us
-            </div>
-            nam esse accusamus? Quidem voluptas suscipit voluptates vero in earum? Consectetur, eos delectus possimus neque optio eaque dolores. Doloremque dolore ullam minima corporis beatae impedit nulla nisi optio, rem fugiat tempore, sit debitis iure accusantium!
-            Vel suscipit nam deleniti dolorum provident omnis maxime mollitia, quos recusandae ipsa voluptate iusto et, quae, rerum sit animi esse totam tenetur fugiat quia eaque. Minima ab asperiores culpa porro consequuntur enim quidem, labore fuga
-            perspiciatis voluptas totam, autem nesciunt aliquid! Nemo ratione modi consectetur numquam fugit, optio amet nobis dolore architecto in tempore labore dignissimos voluptate totam dicta blanditiis nihil? Dolor possimus officia iste nostrum
-            quas quidem consequuntur nisi fuga, fugit beatae temporibus quis veritatis corporis sequi consequatur voluptas odit praesentium nesciunt facere laboriosam qui deserunt vitae. Earum, expedita deleniti. Praesentium.
-        </div>
+      <div class="about-block__read-more">
+        <div class="about-block__read-more__close">Back</div>
+        <div class="about-block__read-more__title">THIS IS BOUNCY</div>
+        <div class="about-block__read-more__title-small">History</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        minima suscipit ad esse ex architecto corporis, maiores porro nulla
+        omnis dicta vel tenetur optio commodi eligendi ut animi mollitia magnam.
+        Dolor perferendis sapiente soluta eum, odit nihil ducimus magnam
+        nesciunt totam placeat harum ipsam voluptatem qui provident enim!
+        Aliquam, laudantium libero! Alias eum ex voluptatibus blanditiis numquam
+        ipsa, quod distinctio voluptatem itaque recusandae! Consectetur
+        molestias dolorem cum magni debitis sint nihil! Voluptatum ex incidunt
+        mollitia minus natus temporibus modi corporis ipsam perspiciatis vitae
+        maxime autem tempora assumenda inventore nam quisquam officia ullam
+        aliquam quam dolor dolore unde, pariatur doloribus?
+        <div class="about-block__read-more__title-small">Foundation</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus
+        obcaecati numquam aliquam, distinctio laboriosam saepe dignissimos nihil
+        porro exercitationem, expedita eos deleniti impedit quod vel incidunt
+        quasi nisi? Corporis animi optio cumque, quis odio, minima minus
+        aspernatur ratione voluptates voluptate accusantium at doloribus
+        tempora, excepturi sunt! Obcaecati, nobis molestias maiores architecto
+        doloribus tempore possimus, optio tempora ad consequatur minus error
+        perferendis accusantium hic voluptatibus voluptatem! Sequi sit eius
+        maxime culpa. Alias harum nostrum omnis qui magni iste vero, sunt
+        consequatur dolores, expedita pariatur debitis praesentium laborum illo
+        consequuntur rem dolorum? Amet, minima sunt blanditiis possimus quidem
+        corrupti aspernatur quae quos illum. Assumenda dicta autem eveniet
+        recusandae excepturi corporis, perspiciatis reprehenderit accusamus
+        nihil ullam perferendis, tenetur ipsa? Quis tempore distinctio labore
+        optio dolore repudiandae autem neque dignissimos, fugiat facilis
+        exercitationem. Voluptates id, repellat illum animi corporis nobis hic
+        fugiat error reiciendis libero doloribus quis laudantium quam laboriosam
+        consequuntur nemo pariatur, inventore doloremque omnis!
+        <div class="about-block__read-more__title-small">First project</div>
+        Consequatur quo quaerat neque temporibus ipsum laboriosam numquam
+        expedita? Exercitationem, ab excepturi aliquid consectetur laborum
+        voluptates facilis aperiam quisquam omnis quidem maiores mollitia
+        impedit, rem qui, aut non? Quia sint eum ipsa doloribus a. Deleniti
+        laborum libero suscipit repellendus, error excepturi dolore dolorum
+        nulla provident cum a officia vitae voluptatem, sit quasi iusto odit
+        eius hic! Repudiandae cum illum vero aut reiciendis asperiores magnam
+        sed ullam impedit velit minima vitae sunt obcaecati debitis ut illo
+        blanditiis consequatur dolores iste quas, saepe nihil? Laboriosam
+        consectetur architecto animi consequuntur dolores. Vel commodi
+        reiciendis, facere, ducimus aut deserunt ipsam fuga expedita quam minima
+        totam qui, vero natus? Eius amet atque animi dolorem nulla. Asperiores
+        modi qui quo ut, error, dolor libero dignissimos animi ipsa, fugit
+        sapiente incidunt sed cupiditate excepturi autem labore. Accusamus
+        assumenda, possimus laborum, dolorem, facere debitis iure et obcaecati
+        tempora vel ducimus magnam non error accusantium nobis. Minima
+        perspiciatis corrupti, eligendi, dolor incidunt fugiat beatae veritatis
+        consequatur ducimus dicta quisquam, dolorem sapiente laboriosam
+        similique? Adipisci fugit, quaerat magni deleniti dolorum fuga, ipsam
+        architecto veritatis est suscipit repellendus praesentium nulla
+        perferendis sapiente nemo porro expedita ex. Vitae accusantium
+        reprehenderit consequatur perspiciatis beatae et pariatur officia ut vel
+        recusandae libero delectus consectetur odit repudiandae magnam debitis,
+        praesentium architecto molestiae quod labore molestias voluptatem modi
+        commodi vero! Asperiores animi maiores saepe consequuntur alias odit
+        <div class="about-block__read-more__title-small">Choose us</div>
+        nam esse accusamus? Quidem voluptas suscipit voluptates vero in earum?
+        Consectetur, eos delectus possimus neque optio eaque dolores. Doloremque
+        dolore ullam minima corporis beatae impedit nulla nisi optio, rem fugiat
+        tempore, sit debitis iure accusantium! Vel suscipit nam deleniti dolorum
+        provident omnis maxime mollitia, quos recusandae ipsa voluptate iusto
+        et, quae, rerum sit animi esse totam tenetur fugiat quia eaque. Minima
+        ab asperiores culpa porro consequuntur enim quidem, labore fuga
+        perspiciatis voluptas totam, autem nesciunt aliquid! Nemo ratione modi
+        consectetur numquam fugit, optio amet nobis dolore architecto in tempore
+        labore dignissimos voluptate totam dicta blanditiis nihil? Dolor
+        possimus officia iste nostrum quas quidem consequuntur nisi fuga, fugit
+        beatae temporibus quis veritatis corporis sequi consequatur voluptas
+        odit praesentium nesciunt facere laboriosam qui deserunt vitae. Earum,
+        expedita deleniti. Praesentium.
+      </div>
     </div>
     <div class="featured-block">
-        <div class="all-title">
-            FEATURED PROJECTS
+      <div class="all-title">FEATURED PROJECTS</div>
+      <div class="all-subtitle">
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium
+      </div>
+      <div class="featured-block__inner">
+        <div class="featured-block__img-block">
+          <div class="featured-block__img two-small-img img-big">
+            <img src="img/layer-83.png" alt="" />
+            <div class="featured-block__img-over">
+              <a href="https://www.jamesonwhiskey.com/en-us/" target="_blank"
+                >Whiskey</a
+              >
+            </div>
+          </div>
+          <div class="two-small-img">
+            <div class="featured-block__img img-small">
+              <img src="img/birka.png" alt="" />
+              <div class="featured-block__img-over">
+                <a href="https://www.guitarcenter.com/" target="_blank"
+                  >Michael Angelio</a
+                >
+              </div>
+            </div>
+            <div class="featured-block__img img-small">
+              <img src="img/jurnal.png" alt="" />
+              <div class="featured-block__img-over">
+                <a href="https://daisy.matros.top" target="_blank"
+                  >Book store</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="all-subtitle">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-        </div>
-        <div class="featured-block__inner">
-            <div class="featured-block__img-block">
-                <div class="featured-block__img two-small-img img-big">
-                    <img src="img/layer-83.png" alt="">
-                    <div class="featured-block__img-over">
-                        <a href="https://www.jamesonwhiskey.com/en-us/" target="_blank">Whiskey</a>
-                    </div>
-                </div>
-                <div class="two-small-img">
-                    <div class="featured-block__img img-small">
-                        <img src="img/birka.png" alt="">
-                        <div class="featured-block__img-over">
-                            <a href="https://www.guitarcenter.com/" target="_blank">Michael Angelio</a>
-                        </div>
-                    </div>
-                    <div class="featured-block__img img-small">
-                        <img src="img/jurnal.png" alt="">
-                        <div class="featured-block__img-over">
-                            <a href="https://daisy.matros.top" target="_blank">Book store</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-block__bottom-block">
-                <div class="content-small">
-                    <div class="featured-block__bottom-text">
-                        At vero eos et <span class="bold-text">accusamus</span> et iusto odio dignissimos ducimus qui blanditiis
-                    </div>
-                    <div class="featured-block__bottom-btn">
-                        <button><a href="featuredSubmit.html">Submit Now</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="services-block">
-        <div class="content-small">
-            <div class="all-title ">
-                Our Services
-            </div>
-            <div class=" all-subtitle ">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="services-block__inner ">
-                <div class="services-block__left-side ">
-                    <div class="services-block__images ">
-                        <div class="services-icon ">
-                            <img src="img/ellipse.png " alt=" ">
-                            <img src="img/instrument.png " alt=" ">
-                        </div>
-                        <div class="services-icon ">
-                            <img src="img/ellipse-green.png " alt=" ">
-                            <img src="img/kraska.png " alt=" ">
-                        </div>
-                        <div class="services-icon ">
-                            <img src="img/ellipse.png " alt=" ">
-                            <img src="img/pad.png " alt=" ">
-                        </div>
-                        <div class="services-icon ">
-                            <img src="img/ellipse.png " alt=" ">
-                            <img src="img/vilka.png " alt=" ">
-                        </div>
-                    </div>
-                    <div class="services-block__left-text ">
-                        <div class="services-block__left-title ">
-                            Graphic Design
-                        </div>
-                        <div class="services-block__left-all-text ">
-                            <p>At vero eos et accusamus et <span class="green-text ">iusto</span> odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti</p>
-                            <p class="p-1 "> quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, <span class="green-text ">similique sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-block__right-side ">
-                    <div class="services-block__digrams ">
-                        <div class="services-block__digramma ">
-                            <div class="drgm-main ">
-                                <div class="dgrm ">
-                                    <svg>
-                                        <circle  cx="60" cy="60" r="60"/>
-                                        <circle style="--rot: 72" cx="60" cy="60" r="60"/>
-                                      Sorry, your browser does not support inline SVG.
-                                      </svg>
-                                    <span data-max="80">0%</span>
-                                </div>
-                                <span class="dgrm-name ">Branding</span>
-                            </div>
-                            <div class="drgm-main ">
-                                <div class="dgrm">
-                                    <span data-max="75">0%</span>
-                                    <svg>
-                                        <circle  cx="60" cy="60" r="60"/>
-                                        <circle style="--rot: 90" cx="60" cy="60" r="60"/>
-                                      Sorry, your browser does not support inline SVG.
-                                      </svg>
-                                </div>
-                                <span class="dgrm-name ">Web Design</span>
-                            </div>
-                            <div class="drgm-main ">
-                                <div class="dgrm ">
-                                    <span data-max="60">0%</span>
-                                    <svg>
-                                        <circle  cx="60" cy="60" r="60"/>
-                                        <circle style="--rot: 161" cx="60" cy="60" r="60"/>
-                                      Sorry, your browser does not support inline SVG.
-                                      </svg>
-                                </div>
-                                <span class="dgrm-name ">UI/UX</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <div class="impressed-block">
-        <div class="content-main">
-            <div class="impressed-block__inner">
-                <div class="impressed-block__left">
-                    <div class="impressed-block__title">Impressed ?</div>
-                    <div class="impressed-block__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</div>
-                    <div class="impressed-block__bottom-text">
-                        - <span>Abdullah Noman</span><br> Creatice Director, <span class="green-text">Code Cafe</span>
-                    </div>
-                </div>
-                <div class="impressed-block__right">
-                    <div class="impressed-block__img">
-                        <img src="img/comp.png" alt="">
-                        <div class="impressed-block__company-name">
-                            B<span class="green-text">o</span>uncy
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-block">
-        <div class="content-main">
-            <div class="all-title">
-                THE PORTFOLIO
-            </div>
-            <div class="all-subtitle">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="portfolio-block__menu">
-                <ul>
-                    <li id="all-works" class="porf-li active-portfolio">All Works</li>
-                    <li id="print" class="porf-li">Print</li>
-                    <li id="aldentity" class="porf-li">AIdentity</li>
-                    <li id="branding" class="porf-li">Branding</li>
-                    <li id="web" class="porf-li">Web</li>
-                    <li id="work-html-li" class="porf-li">HTML</li>
-                    <li id="wordpress" class="porf-li">Wordpress</li>
-                </ul>
-            </div>
-            <div class="portfolio-block__inner-main">
-                <div class="portfolio-block__inner-flex">
-                    <div class="portfolio-block__col">
-                        <div class="portfolio-block__img-block all-works" id="work-print">
-                            <img src="img/portfolio-1.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Your Future</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-aldentity">
-                            <img src="img/portfolio-2.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Is It True?</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-aldentity">
-                            <img src="img/portfolio-3.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">True or False?
-                                    </a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-block__col">
-                        <div class="portfolio-block__img-block all-works" id="work-branding">
-                            <img src="img/portfolio-4.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Imagine it...</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-web">
-                            <img src="img/portfolio-5.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Last try</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-print">
-                            <img src="img/portfolio-6.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">TITLE HERE</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-block__col">
-                        <div class="portfolio-block__img-block all-works" id="work-web">
-                            <img src="img/portfolio-7.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Balck or White</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-html">
-                            <img src="img/portfolio-8.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Stay safety</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-html">
-                            <img src="img/portfolio-9.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Lucky boy</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-block__col">
-                        <div class="portfolio-block__img-block all-works" id="work-wordpress">
-                            <img src="img/portfolio-10.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Read it</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-web">
-                            <img src="img/portfolio-11.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">Learn more</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-block__img-block all-works" id="work-html">
-                            <img src="img/portfolio-12.png" alt="">
-                            <div class="portfolio-block__img-over">
-                                <div class="portfolio-block__img-over-title">
-                                    <a href="">TITLE HERE</a>
-                                </div>
-                                <hr class="portfolio-block__img-over-hr">
-                                <div class="portfolio-block__img-over-text">
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                </div>
-                                <div class="portfolio-block__img-over-icons">
-                                    <div class="portfolio-block__img-over-icons-icon port-chain">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-colc.png" alt="">
-                                    </div>
-                                    <div class="portfolio-block__img-over-icons-icon port-hart">
-                                        <img src="img/ellipse-black-small.png" alt="">
-                                        <img src="img/small-hart.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-block__footer">
+        <div class="featured-block__bottom-block">
+          <div class="content-small">
             <div class="featured-block__bottom-text">
-                At vero eos et <span class="bold-text">accusamus</span> et iusto odio <span class="bold-text">dignissimos</span> ducimus qui blanditiis
+              At vero eos et <span class="bold-text">accusamus</span> et iusto
+              odio dignissimos ducimus qui blanditiis
             </div>
             <div class="featured-block__bottom-btn">
-                <button><a href="featuredSubmit.html">Start Project</a></button>
+              <button><a href="featuredSubmit.html">Submit Now</a></button>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="services-block">
+      <div class="content-small">
+        <div class="all-title">Our Services</div>
+        <div class="all-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
+        </div>
+        <div class="services-block__inner">
+          <div class="services-block__left-side">
+            <div class="services-block__images">
+              <div class="services-icon">
+                <img src="img/ellipse.png " alt=" " />
+                <img src="img/instrument.png " alt=" " />
+              </div>
+              <div class="services-icon">
+                <img src="img/ellipse-green.png " alt=" " />
+                <img src="img/kraska.png " alt=" " />
+              </div>
+              <div class="services-icon">
+                <img src="img/ellipse.png " alt=" " />
+                <img src="img/pad.png " alt=" " />
+              </div>
+              <div class="services-icon">
+                <img src="img/ellipse.png " alt=" " />
+                <img src="img/vilka.png " alt=" " />
+              </div>
+            </div>
+            <div class="services-block__left-text">
+              <div class="services-block__left-title">Graphic Design</div>
+              <div class="services-block__left-all-text">
+                <p>
+                  At vero eos et accusamus et
+                  <span class="green-text">iusto</span> odio dignissimos ducimus
+                  qui blanditiis praesentium voluptatum deleniti
+                </p>
+                <p class="p-1">
+                  quos dolores et quas molestias excepturi sint occaecati
+                  cupiditate non provident,
+                  <span class="green-text">similique sunt</span> in culpa qui
+                  officia deserunt mollitia animi, id est laborum et dolorum
+                  fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services-block__right-side">
+            <div class="services-block__digrams">
+              <div class="services-block__digramma">
+                <div class="drgm-main">
+                  <div class="dgrm">
+                    <svg>
+                      <circle cx="60" cy="60" r="60" />
+                      <circle style="--rot: 72" cx="60" cy="60" r="60" />
+                      Sorry, your browser does not support inline SVG.
+                    </svg>
+                    <span data-max="80">0%</span>
+                  </div>
+                  <span class="dgrm-name">Branding</span>
+                </div>
+                <div class="drgm-main">
+                  <div class="dgrm">
+                    <span data-max="75">0%</span>
+                    <svg>
+                      <circle cx="60" cy="60" r="60" />
+                      <circle style="--rot: 90" cx="60" cy="60" r="60" />
+                      Sorry, your browser does not support inline SVG.
+                    </svg>
+                  </div>
+                  <span class="dgrm-name">Web Design</span>
+                </div>
+                <div class="drgm-main">
+                  <div class="dgrm">
+                    <span data-max="60">0%</span>
+                    <svg>
+                      <circle cx="60" cy="60" r="60" />
+                      <circle style="--rot: 161" cx="60" cy="60" r="60" />
+                      Sorry, your browser does not support inline SVG.
+                    </svg>
+                  </div>
+                  <span class="dgrm-name">UI/UX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="impressed-block">
+      <div class="content-main">
+        <div class="impressed-block__inner">
+          <div class="impressed-block__left">
+            <div class="impressed-block__title">Impressed ?</div>
+            <div class="impressed-block__text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias
+            </div>
+            <div class="impressed-block__bottom-text">
+              - <span>Abdullah Noman</span><br />
+              Creatice Director, <span class="green-text">Code Cafe</span>
+            </div>
+          </div>
+          <div class="impressed-block__right">
+            <div class="impressed-block__img">
+              <img src="img/comp.png" alt="" />
+              <div class="impressed-block__company-name">
+                B<span class="green-text">o</span>uncy
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-block">
+      <div class="content-main">
+        <div class="all-title">THE PORTFOLIO</div>
+        <div class="all-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
+        </div>
+        <div class="portfolio-block__menu">
+          <ul>
+            <li id="all-works" class="porf-li active-portfolio">All Works</li>
+            <li id="print" class="porf-li">Print</li>
+            <li id="aldentity" class="porf-li">AIdentity</li>
+            <li id="branding" class="porf-li">Branding</li>
+            <li id="web" class="porf-li">Web</li>
+            <li id="work-html-li" class="porf-li">HTML</li>
+            <li id="wordpress" class="porf-li">Wordpress</li>
+          </ul>
+        </div>
+        <div class="portfolio-block__inner-main">
+          <div class="portfolio-block__inner-flex">
+            <div class="portfolio-block__col">
+              <div class="portfolio-block__img-block all-works" id="work-print">
+                <img src="img/portfolio-1.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Your Future</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-block__img-block all-works"
+                id="work-aldentity"
+              >
+                <img src="img/portfolio-2.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Is It True?</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-block__img-block all-works"
+                id="work-aldentity"
+              >
+                <img src="img/portfolio-3.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">True or False? </a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-block__col">
+              <div
+                class="portfolio-block__img-block all-works"
+                id="work-branding"
+              >
+                <img src="img/portfolio-4.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Imagine it...</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-web">
+                <img src="img/portfolio-5.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Last try</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-print">
+                <img src="img/portfolio-6.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">TITLE HERE</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-block__col">
+              <div class="portfolio-block__img-block all-works" id="work-web">
+                <img src="img/portfolio-7.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Balck or White</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-html">
+                <img src="img/portfolio-8.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Stay safety</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-html">
+                <img src="img/portfolio-9.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Lucky boy</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-block__col">
+              <div
+                class="portfolio-block__img-block all-works"
+                id="work-wordpress"
+              >
+                <img src="img/portfolio-10.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Read it</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-web">
+                <img src="img/portfolio-11.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">Learn more</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-block__img-block all-works" id="work-html">
+                <img src="img/portfolio-12.png" alt="" />
+                <div class="portfolio-block__img-over">
+                  <div class="portfolio-block__img-over-title">
+                    <a href="">TITLE HERE</a>
+                  </div>
+                  <hr class="portfolio-block__img-over-hr" />
+                  <div class="portfolio-block__img-over-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium
+                  </div>
+                  <div class="portfolio-block__img-over-icons">
+                    <div
+                      class="portfolio-block__img-over-icons-icon port-chain"
+                    >
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-colc.png" alt="" />
+                    </div>
+                    <div class="portfolio-block__img-over-icons-icon port-hart">
+                      <img src="img/ellipse-black-small.png" alt="" />
+                      <img src="img/small-hart.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-block__footer">
+        <div class="featured-block__bottom-text">
+          At vero eos et <span class="bold-text">accusamus</span> et iusto odio
+          <span class="bold-text">dignissimos</span> ducimus qui blanditiis
+        </div>
+        <div class="featured-block__bottom-btn">
+          <button><a href="featuredSubmit.html">Start Project</a></button>
+        </div>
+      </div>
     </div>
     <div class="team-block">
-        <div class="content-small">
-            <div class="all-title">
-                THE TEAM
-            </div>
-            <div class="all-subtitle">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="team-block__inner">
-                <div class="team-block__inner-about active-team">
-                    <img src="img/team-1.png" alt="">
-                    <div class="team-block__about-right">
-                        <div class="team-block__name">
-                            <span class="name">
-                                Abdullah Noman
-                            </span>
-                            <span class="job">
-                                Creative Director, Code Cafe
-                            </span>
-                        </div>
-                        <div class="team-block__text-about">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                        </div>
-                        <div class="team-block__lines">
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>BRANDING</span>
-                                    <span>80 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>BRANDING</span>
-                                    <span>65 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>BRANDING</span>
-                                    <span>75 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block__inner-about">
-                    <img src="img/team-2.jpg" alt="">
-                    <div class="team-block__about-right">
-                        <div class="team-block__name">
-                            <span class="name">
-                                Anna Marctin
-                            </span>
-                            <span class="job">
-                                Designer, Code Cafe
-                            </span>
-                        </div>
-                        <div class="team-block__text-about">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                        </div>
-                        <div class="team-block__lines">
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>BRANDING</span>
-                                    <span>60 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>Web Design</span>
-                                    <span>95 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>User Interface</span>
-                                    <span>80 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block__inner-about">
-                    <img src="img/team-3.jpg" alt="">
-                    <div class="team-block__about-right">
-                        <div class="team-block__name">
-                            <span class="name">
-                                Carib Benzema
-                            </span>
-                            <span class="job">
-                                Manager, Code Cafe
-                            </span>
-                        </div>
-                        <div class="team-block__text-about">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                        </div>
-                        <div class="team-block__lines">
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>BRANDING</span>
-                                    <span>90 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>Web Design</span>
-                                    <span>75 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                            <div class="line-main">
-                                <div class="line-text">
-                                    <span>User Interface</span>
-                                    <span>85 %</span>
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ratio">
-                    <input type="radio" name="team-radio" id="radio-1" class="team-radio">
-                    <label for="radio-1" class="team-label active-label"></label>
-                    <input type="radio" name="team-radio" id="radio-2" checked class="team-radio">
-                    <label for="radio-2" class="team-label"></label>
-                    <input type="radio" name="team-radio" id="radio-3" class="team-radio">
-                    <label for="radio-3" class="team-label"></label>
-                </div>
-            </div>
+      <div class="content-small">
+        <div class="all-title">THE TEAM</div>
+        <div class="all-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
         </div>
+        <div class="team-block__inner">
+          <div class="team-block__inner-about active-team">
+            <img src="img/team-1.png" alt="" />
+            <div class="team-block__about-right">
+              <div class="team-block__name">
+                <span class="name"> Abdullah Noman </span>
+                <span class="job"> Creative Director, Code Cafe </span>
+              </div>
+              <div class="team-block__text-about">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium
+              </div>
+              <div class="team-block__lines">
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>BRANDING</span>
+                    <span>80 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>BRANDING</span>
+                    <span>65 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>BRANDING</span>
+                    <span>75 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-block__inner-about">
+            <img src="img/team-2.jpg" alt="" />
+            <div class="team-block__about-right">
+              <div class="team-block__name">
+                <span class="name"> Anna Marctin </span>
+                <span class="job"> Designer, Code Cafe </span>
+              </div>
+              <div class="team-block__text-about">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium
+              </div>
+              <div class="team-block__lines">
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>BRANDING</span>
+                    <span>60 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>Web Design</span>
+                    <span>95 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>User Interface</span>
+                    <span>80 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-block__inner-about">
+            <img src="img/team-3.jpg" alt="" />
+            <div class="team-block__about-right">
+              <div class="team-block__name">
+                <span class="name"> Carib Benzema </span>
+                <span class="job"> Manager, Code Cafe </span>
+              </div>
+              <div class="team-block__text-about">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium
+              </div>
+              <div class="team-block__lines">
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>BRANDING</span>
+                    <span>90 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>Web Design</span>
+                    <span>75 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+                <div class="line-main">
+                  <div class="line-text">
+                    <span>User Interface</span>
+                    <span>85 %</span>
+                  </div>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ratio">
+            <input
+              type="radio"
+              name="team-radio"
+              id="radio-1"
+              class="team-radio"
+            />
+            <label for="radio-1" class="team-label active-label"></label>
+            <input
+              type="radio"
+              name="team-radio"
+              id="radio-2"
+              checked
+              class="team-radio"
+            />
+            <label for="radio-2" class="team-label"></label>
+            <input
+              type="radio"
+              name="team-radio"
+              id="radio-3"
+              class="team-radio"
+            />
+            <label for="radio-3" class="team-label"></label>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="contact-block">
-        <div class="content-small">
-            <div class="contact-block__text">Already Loved Us? Let’s talk!
-            </div>
-            <button class="contact-block__btn">
-                Contact Us
-            </button>
-        </div>
+      <div class="content-small">
+        <div class="contact-block__text">Already Loved Us? Let’s talk!</div>
+        <button class="contact-block__btn">Contact Us</button>
+      </div>
     </div>
     <div class="testim-block">
-        <div class="content-main">
-            <div class="all-title">
-                Testimonials
-            </div>
-            <div class="all-subtitle">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="testim-block__inner-main">
-                <div class="testim-block__rewiev active-team">
-                    <img src="img/testim-img.png" alt="">
-                    <div class="testim-block__right">
-                        <div class="testim-block__text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.
-                        </div>
-                        <div class="testim-block__name-main">
-                            <div class="testim-block__name"><span class="green-text">PARTHO</span></div>
-                            <div class="testim-block__job">FOUNDER, ARTWAYS BD</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testim-block__rewiev">
-                    <img src="img/testim-2.jpg" alt="">
-                    <div class="testim-block__right">
-                        <div class="testim-block__text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ipsa accusamus fugit iste exercitationem delectus, modi itaque cupiditate error illum!
-                        </div>
-                        <div class="testim-block__name-main">
-                            <div class="testim-block__name"><span class="green-text">Andreas</span></div>
-                            <div class="testim-block__job">Creator, WB</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testim-block__rewiev">
-                    <img src="img/testim-3.jpg" alt="">
-                    <div class="testim-block__right">
-                        <div class="testim-block__text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-                        </div>
-                        <div class="testim-block__name-main">
-                            <div class="testim-block__name"><span class="green-text">Michael</span></div>
-                            <div class="testim-block__job">FOUNDER, Green BL</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ratio">
-                    <input type="radio" name="testim-radio" id="radio-4" class="testim-radio">
-                    <label for="radio-4" class="testim-label active-label"></label>
-                    <input type="radio" name="testim-radio" id="radio-5" checked class="testim-radio">
-                    <label for="radio-5" class="testim-label"></label>
-                    <input type="radio" name="testim-radio" id="radio-6" class="testim-radio">
-                    <label for="radio-6" class="testim-label"></label>
-                </div>
-            </div>
+      <div class="content-main">
+        <div class="all-title">Testimonials</div>
+        <div class="all-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
         </div>
+        <div class="testim-block__inner-main">
+          <div class="testim-block__rewiev active-team">
+            <img src="img/testim-img.png" alt="" />
+            <div class="testim-block__right">
+              <div class="testim-block__text">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia.
+              </div>
+              <div class="testim-block__name-main">
+                <div class="testim-block__name">
+                  <span class="green-text">PARTHO</span>
+                </div>
+                <div class="testim-block__job">FOUNDER, ARTWAYS BD</div>
+              </div>
+            </div>
+          </div>
+          <div class="testim-block__rewiev">
+            <img src="img/testim-2.jpg" alt="" />
+            <div class="testim-block__right">
+              <div class="testim-block__text">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia. Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Blanditiis, aliquam! Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Cum ipsa accusamus fugit iste
+                exercitationem delectus, modi itaque cupiditate error illum!
+              </div>
+              <div class="testim-block__name-main">
+                <div class="testim-block__name">
+                  <span class="green-text">Andreas</span>
+                </div>
+                <div class="testim-block__job">Creator, WB</div>
+              </div>
+            </div>
+          </div>
+          <div class="testim-block__rewiev">
+            <img src="img/testim-3.jpg" alt="" />
+            <div class="testim-block__right">
+              <div class="testim-block__text">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium.
+              </div>
+              <div class="testim-block__name-main">
+                <div class="testim-block__name">
+                  <span class="green-text">Michael</span>
+                </div>
+                <div class="testim-block__job">FOUNDER, Green BL</div>
+              </div>
+            </div>
+          </div>
+          <div class="ratio">
+            <input
+              type="radio"
+              name="testim-radio"
+              id="radio-4"
+              class="testim-radio"
+            />
+            <label for="radio-4" class="testim-label active-label"></label>
+            <input
+              type="radio"
+              name="testim-radio"
+              id="radio-5"
+              checked
+              class="testim-radio"
+            />
+            <label for="radio-5" class="testim-label"></label>
+            <input
+              type="radio"
+              name="testim-radio"
+              id="radio-6"
+              class="testim-radio"
+            />
+            <label for="radio-6" class="testim-label"></label>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="news-block">
-        <div class="content-main">
-            <div class="all-title news-title">
-                LATEST NEWS
-            </div>
-            <div class="all-subtitle news-subtitle">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="news-block__main-inner">
-                <div class="news-block__news-inner active-block">
-                    <div class="news-block__news-title">
-                        The trending Landing Pages
-                    </div>
-                    <div class="news-block__news-author">
-                        by <span class="green-text">Kabir Uddin</span>
-                    </div>
-                    <div class="news-block__news-description">
-                        6950 Likes - 243 Comments - 703 shares
-                    </div>
-                    <div class="news-block__news-text">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-                        animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...
-                    </div>
-                    <button class="news-block__button">+ Read more</button>
-                </div>
-                <div class="news-block__news-inner">
-                    <div class="news-block__news-title">
-                        The Outlook Of Mine
-                    </div>
-                    <div class="news-block__news-author">
-                        by <span class="green-text">Habib Nurmagomedov</span>
-                    </div>
-                    <div class="news-block__news-description">
-                        4250 Likes - 123 Comments - 542 shares
-                    </div>
-                    <div class="news-block__news-text">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Et harum quidem rerum facilis est et expedita distinctio...
-                    </div>
-                    <button class="news-block__button">+ Read more</button>
-                </div>
-                <div class="news-block__news-inner">
-                    <div class="news-block__news-title">
-                        Reload yourself
-                    </div>
-                    <div class="news-block__news-author">
-                        by <span class="green-text">Lorean Dol</span>
-                    </div>
-                    <div class="news-block__news-description">
-                        500 Likes - 33 Comments - 250 shares
-                    </div>
-                    <div class="news-block__news-text">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-                        animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque provident cum, nobis velit officiis sapiente fugiat nam enim aperiam
-                        corrupti possimus saepe molestiae animi earum autem tenetur! Quos illum maiores dolores earum corrupti amet hic a magnam vero dolore! Ad veritatis ab, unde expedita et in quaerat maiores repellendus libero.
-                    </div>
-                    <button class="news-block__button">+ Read more</button>
-                </div>
-                <div class="ratio news-ratio">
-                    <input type="radio" name="news-radio" id="radio-7" class="news-radio">
-                    <label for="radio-7" class="news-label active-label"></label>
-                    <input type="radio" name="news-radio" id="radio-8" checked class="news-radio">
-                    <label for="radio-8" class="news-label"></label>
-                    <input type="radio" name="news-radio" id="radio-9" class="news-radio">
-                    <label for="radio-9" class="news-label"></label>
-                </div>
-            </div>
+      <div class="content-main">
+        <div class="all-title news-title">LATEST NEWS</div>
+        <div class="all-subtitle news-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
         </div>
-        <div class="read-more-news">
-            <div class="read-more-news__title">title</div>
-            <div class="read-more-news__author">author</div>
-            <div class="read-more-news__descr">decsr</div>
-            <div class="read-more-news__text">text</div>
-            <button class="read-more-news__close">Back</button>
+        <div class="news-block__main-inner">
+          <div class="news-block__news-inner active-block">
+            <div class="news-block__news-title">The trending Landing Pages</div>
+            <div class="news-block__news-author">
+              by <span class="green-text">Kabir Uddin</span>
+            </div>
+            <div class="news-block__news-description">
+              6950 Likes - 243 Comments - 703 shares
+            </div>
+            <div class="news-block__news-text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum
+              facilis est et expedita distinctio...
+            </div>
+            <button class="news-block__button">+ Read more</button>
+          </div>
+          <div class="news-block__news-inner">
+            <div class="news-block__news-title">The Outlook Of Mine</div>
+            <div class="news-block__news-author">
+              by <span class="green-text">Habib Nurmagomedov</span>
+            </div>
+            <div class="news-block__news-description">
+              4250 Likes - 123 Comments - 542 shares
+            </div>
+            <div class="news-block__news-text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas. Et harum quidem rerum facilis est et expedita
+              distinctio...
+            </div>
+            <button class="news-block__button">+ Read more</button>
+          </div>
+          <div class="news-block__news-inner">
+            <div class="news-block__news-title">Reload yourself</div>
+            <div class="news-block__news-author">
+              by <span class="green-text">Lorean Dol</span>
+            </div>
+            <div class="news-block__news-description">
+              500 Likes - 33 Comments - 250 shares
+            </div>
+            <div class="news-block__news-text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et harum quidem rerum
+              facilis est et expedita distinctio.. Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Atque provident cum, nobis velit
+              officiis sapiente fugiat nam enim aperiam corrupti possimus saepe
+              molestiae animi earum autem tenetur! Quos illum maiores dolores
+              earum corrupti amet hic a magnam vero dolore! Ad veritatis ab,
+              unde expedita et in quaerat maiores repellendus libero.
+            </div>
+            <button class="news-block__button">+ Read more</button>
+          </div>
+          <div class="ratio news-ratio">
+            <input
+              type="radio"
+              name="news-radio"
+              id="radio-7"
+              class="news-radio"
+            />
+            <label for="radio-7" class="news-label active-label"></label>
+            <input
+              type="radio"
+              name="news-radio"
+              id="radio-8"
+              checked
+              class="news-radio"
+            />
+            <label for="radio-8" class="news-label"></label>
+            <input
+              type="radio"
+              name="news-radio"
+              id="radio-9"
+              class="news-radio"
+            />
+            <label for="radio-9" class="news-label"></label>
+          </div>
         </div>
+      </div>
+      <div class="read-more-news">
+        <div class="read-more-news__title">title</div>
+        <div class="read-more-news__author">author</div>
+        <div class="read-more-news__descr">decsr</div>
+        <div class="read-more-news__text">text</div>
+        <button class="read-more-news__close">Back</button>
+      </div>
     </div>
     <div class="price-block">
-        <div class="content-small">
-            <div class="all-title">
-                Our Price
-            </div>
-            <div class="all-subtitle">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            </div>
-            <div class="price-block__inner">
-                <div class="price-block__price-small">
-                    <div class="price-block__front ">
-                        <div class="price-block__front-top">
-                            PREMIUM
-                        </div>
-                        <div class="price-block__front-num">
-                            <span class="price-block__front-price"><span class="green-text">
-                                $ 60
-                            </span></span>
-                            <span class="price-block__front-desc">Per Month</span>
-                        </div>
-                    </div>
-                    <div class="price-block__back ">
-                        <div class="price-block__back-desc">
-                            <ul>
-                                <li>Full Branding</li>
-                                <li> Project Management </li>
-                                <li>Unlimited Revisions</li>
-                                <li> 24/7 h Service </li>
-                                <li>Free Domain</li>
-                                <li> Free Hosting</li>
-                            </ul>
-                        </div>
-                        <div class="price-block__back-btn">
-                            <button>Let’s Start</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-block__price-small">
-                    <div class="price-block__front ">
-                        <div class="price-block__front-top">
-                            Laxirious
-                        </div>
-                        <div class="price-block__front-num">
-                            <span class="price-block__front-price"><span class="green-text">
-                                $ 50
-                            </span></span>
-                            <span class="price-block__front-desc">Per Month</span>
-                        </div>
-                    </div>
-                    <div class="price-block__back ">
-                        <div class="price-block__back-desc">
-                            <ul>
-                                <li>Full Branding</li>
-                                <li> Project Management </li>
-                                <li>Unlimited Revisions</li>
-                                <li> 24/7 h Service </li>
-                                <li>Free Domain</li>
-                                <li> Free Hosting</li>
-                            </ul>
-                        </div>
-                        <div class="price-block__back-btn">
-                            <button>Let’s Start</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="price-block__price-small">
-                    <div class="price-block__front ">
-                        <div class="price-block__front-top">
-                            Standart
-                        </div>
-                        <div class="price-block__front-num">
-                            <span class="price-block__front-price"><span class="green-text">
-                                $ 40
-                            </span></span>
-                            <span class="price-block__front-desc">Per Month</span>
-                        </div>
-                    </div>
-                    <div class="price-block__back ">
-                        <div class="price-block__back-desc">
-                            <ul>
-                                <li>Full Branding</li>
-                                <li> Project Management </li>
-                                <li>Unlimited Revisions</li>
-                                <li> 24/7 h Service </li>
-                                <li>Free Domain</li>
-                                <li> Free Hosting</li>
-                            </ul>
-                        </div>
-                        <div class="price-block__back-btn">
-                            <button>Let’s Start</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="content-small">
+        <div class="all-title">Our Price</div>
+        <div class="all-subtitle">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium
         </div>
+        <div class="price-block__inner">
+          <div class="price-block__price-small">
+            <div class="price-block__front">
+              <div class="price-block__front-top">PREMIUM</div>
+              <div class="price-block__front-num">
+                <span class="price-block__front-price"
+                  ><span class="green-text"> $ 60 </span></span
+                >
+                <span class="price-block__front-desc">Per Month</span>
+              </div>
+            </div>
+            <div class="price-block__back">
+              <div class="price-block__back-desc">
+                <ul>
+                  <li>Full Branding</li>
+                  <li>Project Management</li>
+                  <li>Unlimited Revisions</li>
+                  <li>24/7 h Service</li>
+                  <li>Free Domain</li>
+                  <li>Free Hosting</li>
+                </ul>
+              </div>
+              <div class="price-block__back-btn">
+                <button>Let’s Start</button>
+              </div>
+            </div>
+          </div>
+          <div class="price-block__price-small">
+            <div class="price-block__front">
+              <div class="price-block__front-top">Laxirious</div>
+              <div class="price-block__front-num">
+                <span class="price-block__front-price"
+                  ><span class="green-text"> $ 50 </span></span
+                >
+                <span class="price-block__front-desc">Per Month</span>
+              </div>
+            </div>
+            <div class="price-block__back">
+              <div class="price-block__back-desc">
+                <ul>
+                  <li>Full Branding</li>
+                  <li>Project Management</li>
+                  <li>Unlimited Revisions</li>
+                  <li>24/7 h Service</li>
+                  <li>Free Domain</li>
+                  <li>Free Hosting</li>
+                </ul>
+              </div>
+              <div class="price-block__back-btn">
+                <button>Let’s Start</button>
+              </div>
+            </div>
+          </div>
+          <div class="price-block__price-small">
+            <div class="price-block__front">
+              <div class="price-block__front-top">Standart</div>
+              <div class="price-block__front-num">
+                <span class="price-block__front-price"
+                  ><span class="green-text"> $ 40 </span></span
+                >
+                <span class="price-block__front-desc">Per Month</span>
+              </div>
+            </div>
+            <div class="price-block__back">
+              <div class="price-block__back-desc">
+                <ul>
+                  <li>Full Branding</li>
+                  <li>Project Management</li>
+                  <li>Unlimited Revisions</li>
+                  <li>24/7 h Service</li>
+                  <li>Free Domain</li>
+                  <li>Free Hosting</li>
+                </ul>
+              </div>
+              <div class="price-block__back-btn">
+                <button>Let’s Start</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="subscribe-block">
-        <div class="subscribe-block__bg">
-            <div class="content-small">
-                <div class="all-title subsc-title">
-                    Subscribe us
-                </div>
-                <div class="all-subtitle subsc-sub">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                </div>
-                <div class="subscribe-block__inner">
-                    <input type="email" class="subscribe-block__adress" placeholder="Email Adress">
-                    <button class="subscribe-block__button">Submit</button>
-                </div>
-            </div>
+      <div class="subscribe-block__bg">
+        <div class="content-small">
+          <div class="all-title subsc-title">Subscribe us</div>
+          <div class="all-subtitle subsc-sub">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium
+          </div>
+          <div class="subscribe-block__inner">
+            <input
+              type="email"
+              class="subscribe-block__adress"
+              placeholder="Email Adress"
+            />
+            <button class="subscribe-block__button">Submit</button>
+          </div>
         </div>
+      </div>
     </div>
     <div class="contact-big-block">
-        <div class="contact-big-block__top">
-            <div class="content-small">
-                <div class="all-title">
-                    Contact Us
+      <div class="contact-big-block__top">
+        <div class="content-small">
+          <div class="all-title">Contact Us</div>
+          <div class="all-subtitle">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium
+          </div>
+          <div class="contact-big-block__top-inner">
+            <div class="contact-big-block__small">
+              <div class="contact-big-block__small-top">
+                <img src="img/cont-letter.png" alt="" />
+              </div>
+              <div class="contact-big-block__small-bottom">
+                <div class="contact-big-block__small-bottom-title">EMAIL</div>
+                <div class="contact-big-block__small-bottom-text">
+                  hello@codecafe.com Personal@codecafe.com
                 </div>
-                <div class="all-subtitle">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                </div>
-                <div class="contact-big-block__top-inner">
-                    <div class="contact-big-block__small">
-                        <div class="contact-big-block__small-top">
-                            <img src="img/cont-letter.png" alt="">
-                        </div>
-                        <div class="contact-big-block__small-bottom">
-                            <div class="contact-big-block__small-bottom-title">
-                                EMAIL
-                            </div>
-                            <div class="contact-big-block__small-bottom-text">
-                                hello@codecafe.com Personal@codecafe.com
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-big-block__small">
-                        <div class="contact-big-block__small-top">
-                            <img src="img/cont-letter.png" alt="">
-                        </div>
-                        <div class="contact-big-block__small-bottom">
-                            <div class="contact-big-block__small-bottom-title">
-                                EMAIL
-                            </div>
-                            <div class="contact-big-block__small-bottom-text">
-                                hello@codecafe.com Personal@codecafe.com
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-big-block__small">
-                        <div class="contact-big-block__small-top">
-                            <img src="img/cont-letter.png" alt="">
-                        </div>
-                        <div class="contact-big-block__small-bottom">
-                            <div class="contact-big-block__small-bottom-title">
-                                EMAIL
-                            </div>
-                            <div class="contact-big-block__small-bottom-text">
-                                hello@codecafe.com Personal@codecafe.com
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-        <div class="contact-big-block__bottom">
-            <div class="content-small">
-                <div class="contact-big-block__bottom-inner">
-                    <div class="contact-big-block__inputs">
-                        <input type="text" placeholder="Your name">
-                        <input type="email" placeholder="Email address">
-                        <input type="text" placeholder="Subject">
-                    </div>
-                    <textarea name="contact-textarea" id="contact-textarea"></textarea>
-                    <button>SUBMIT NOW</button>
+            <div class="contact-big-block__small">
+              <div class="contact-big-block__small-top">
+                <img src="img/cont-letter.png" alt="" />
+              </div>
+              <div class="contact-big-block__small-bottom">
+                <div class="contact-big-block__small-bottom-title">EMAIL</div>
+                <div class="contact-big-block__small-bottom-text">
+                  hello@codecafe.com Personal@codecafe.com
                 </div>
+              </div>
             </div>
+            <div class="contact-big-block__small">
+              <div class="contact-big-block__small-top">
+                <img src="img/cont-letter.png" alt="" />
+              </div>
+              <div class="contact-big-block__small-bottom">
+                <div class="contact-big-block__small-bottom-title">EMAIL</div>
+                <div class="contact-big-block__small-bottom-text">
+                  hello@codecafe.com Personal@codecafe.com
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="contact-big-block__bottom">
+        <div class="content-small">
+          <div class="contact-big-block__bottom-inner">
+            <div class="contact-big-block__inputs">
+              <input type="text" placeholder="Your name" />
+              <input type="email" placeholder="Email address" />
+              <input type="text" placeholder="Subject" />
+            </div>
+            <textarea name="contact-textarea" id="contact-textarea"></textarea>
+            <button>SUBMIT NOW</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="map-block">
-        <div class="map-block__bg">
-            <span>FIND US ON THE MAP</span>
-        </div>
-        <iframe class="map-block__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.3761946154835!2d-73.9853581165534!3d40.75844279000796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597d74a00a49%3A0xcd7bcb84f67a7cb0!2sTime%20Square!5e1!3m2!1sru!2sua!4v1656408017914!5m2!1sru!2sua"
-            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-block__bg">
+        <span>FIND US ON THE MAP</span>
+      </div>
+      <iframe
+        class="map-block__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.3761946154835!2d-73.9853581165534!3d40.75844279000796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597d74a00a49%3A0xcd7bcb84f67a7cb0!2sTime%20Square!5e1!3m2!1sru!2sua!4v1656408017914!5m2!1sru!2sua"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
     <footer class="footer">
-        <div class="footer__logo"><img src="img/logo-black.png" alt=""></div>
-        <div class="footer__text">Copyright 2022. All rights Reserved</div>
-        <div class="footer__img">
-            <a href=""><img src="img/facebook.png" alt=""></a>
-            <a href=""><img src="img/twitter.png" alt=""></a>
-            <a href=""><img src="img/linkedin.png" alt=""></a>
-            <a href=""><img src="img/instagramm.png" alt=""></a>
-            <a href=""><img src="img/vimeo.png" alt=""></a>
-        </div>
+      <div class="footer__logo"><img src="img/logo-black.png" alt="" /></div>
+      <div class="footer__text">Copyright 2022. All rights Reserved</div>
+      <div class="footer__img">
+        <a href=""><img src="img/facebook.png" alt="" /></a>
+        <a href=""><img src="img/twitter.png" alt="" /></a>
+        <a href=""><img src="img/linkedin.png" alt="" /></a>
+        <a href=""><img src="img/instagramm.png" alt="" /></a>
+        <a href=""><img src="img/vimeo.png" alt="" /></a>
+      </div>
     </footer>
     <div class="scroll-up-btn">
-        <ion-icon name="chevron-up-circle-outline"></ion-icon>
+      <ion-icon name="chevron-up-circle-outline"></ion-icon>
     </div>
     <script src="js/main.js "></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
