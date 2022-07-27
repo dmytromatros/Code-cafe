@@ -1952,6 +1952,10 @@ h6 {
   background-color: #19bd9a;
 }
 
+.contact-big-block {
+  overflow-x: hidden;
+}
+
 .contact-big-block .content-small {
   max-width: 940px;
 }
@@ -1977,6 +1981,25 @@ h6 {
   width: 287px;
   height: 272px;
   background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-big-block__small img {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact-big-block__small:hover {
+  -webkit-transform: scale(150%);
+          transform: scale(150%);
+}
+
+.contact-big-block__small:hover img {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .contact-big-block__small-top {
