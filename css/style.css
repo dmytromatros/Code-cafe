@@ -86,6 +86,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -484,6 +485,7 @@ h6 {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 20px;
 }
 
 .about-block .about-second .left-text__title {
@@ -531,7 +533,9 @@ h6 {
   max-width: 750px;
   margin-left: calc(50% - 400px);
   height: 500px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   color: #111;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
@@ -540,8 +544,8 @@ h6 {
   text-align: justify;
   overflow: auto;
   font-size: 20px;
-  -webkit-box-shadow: 0 0 1000px 1000px rgba(0, 0, 0, 0.7);
-          box-shadow: 0 0 1000px 1000px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 0 1000px 1000px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 1000px 1000px rgba(0, 0, 0, 0.8);
   border-radius: 3px;
   z-index: 10;
 }
@@ -808,12 +812,17 @@ h6 {
           justify-content: center;
 }
 
+.services-block .services-icon img {
+  cursor: pointer;
+}
+
 .services-block .services-icon img:last-child {
   position: absolute;
 }
 
 .services-block__left-text {
   margin-left: 44px;
+  display: none;
 }
 
 .services-block__left-title {
@@ -932,6 +941,10 @@ h6 {
   letter-spacing: 0.8px;
   text-align: center;
   color: #81868e;
+}
+
+.services-block .service-active {
+  display: block;
 }
 
 .impressed-block {
@@ -1243,8 +1256,8 @@ h6 {
 }
 
 .team-block__inner-about {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   min-height: 364px;
   width: 100%;
   display: none;
@@ -1721,11 +1734,11 @@ h6 {
 .news-block .read-more-news__text {
   margin: 60px 0 51px 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   letter-spacing: 0.7px;
   line-height: 1.79;
-  text-align: left;
+  text-align: justify;
   color: #fff;
 }
 
@@ -2236,6 +2249,7 @@ h6 {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 100;
   cursor: pointer;
 }
 
@@ -2419,6 +2433,9 @@ h6 {
     margin: 0;
     padding: 0 20px;
   }
+  .services-block__left-text p {
+    text-align: justify;
+  }
   .services-block__right-side {
     margin-top: 50px;
     min-width: 467px;
@@ -2433,6 +2450,11 @@ h6 {
   .impressed-block__right {
     display: none;
   }
+  .testim-block__rewiev {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+  }
 }
 
 @media (max-width: 467px) {
@@ -2445,28 +2467,6 @@ h6 {
 }
 
 @media (max-width: 1000px) {
-  .featured-block__img-block {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 50px;
-  }
-  .featured-block .img-small {
-    width: 337px;
-    min-width: 250px;
-  }
-  .featured-block .two-small-img {
-    width: 674px;
-  }
-  .featured-block__bottom-text {
-    margin: 15px 0;
-    text-align: center;
-  }
-  .featured-block__bottom-btn {
-    margin-bottom: 20px;
-  }
   .contact-big-block__bottom {
     width: 100%;
     padding-top: 80px;
@@ -2501,6 +2501,31 @@ h6 {
     margin-bottom: 15px;
     max-width: 100%;
     width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .featured-block__img-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+  }
+  .featured-block .img-small {
+    width: 337px;
+    min-width: 250px;
+  }
+  .featured-block .two-small-img {
+    width: 674px;
+  }
+  .featured-block__bottom-text {
+    margin: 15px 0;
+    text-align: center;
+  }
+  .featured-block__bottom-btn {
+    margin-bottom: 20px;
   }
 }
 
@@ -2642,5 +2667,37 @@ h6 {
   }
   .testim-block__text {
     text-align: justify;
+  }
+}
+
+@media (max-width: 710px) {
+  .about-block .about-first__btn {
+    width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+  }
+  .about-block .about-first__subtitle {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 960px) {
+  .about-block .about-second__left-text {
+    max-width: 100%;
+    width: 100%;
+    text-align: justify;
+  }
+  .about-block .about-second__right-text {
+    max-width: 100%;
+    width: 100%;
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 538px) {
+  .subscribe-block__button {
+    width: 100%;
+    max-width: 358px;
   }
 }

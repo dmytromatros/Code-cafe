@@ -1,0 +1,288 @@
+/*Обнуление*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+  background: #a9a9a9;
+  /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #19bd9a;
+  /* цвет бегунка */
+  border-radius: 20px;
+  /* округлось бегунка */
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("../img/impessed-bg.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Source Sans Pro";
+}
+.header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__text {
+  max-width: 100%;
+  font-family: "Source Sans Pro";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer {
+  height: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.footer__logo {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.48;
+  letter-spacing: normal;
+  text-align: left;
+  color: #323a45;
+}
+
+.footer__text {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: 0.7px;
+  color: #81868e;
+}
+
+.footer__img {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  padding-bottom: 100px;
+  margin: auto;
+  max-width: 500px;
+}
+.card {
+  margin-top: 100px;
+  width: 100%;
+  /* min-height: 700px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  position: relative;
+  padding: 0 10px;
+  padding-top: 150px;
+  padding-bottom: 25px;
+  font-weight: 300;
+}
+form {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+.card div {
+  margin: 25px 0;
+}
+.text-div {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 150%;
+  font-weight: 300;
+}
+input {
+  display: block;
+  width: 100%;
+  border: solid 1.5px #999;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px -6px rgba(34, 60, 80, 0.6) inset;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+#card-email {
+  margin-top: 20px;
+  /* margin-bottom: 70px; */
+}
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #19bd9a;
+  margin-top: 25px;
+}
+.card img {
+  max-width: 300px;
+  width: 100%;
+  position: absolute;
+  top: -150px;
+  left: calc(50% - 150px);
+}
+.card span {
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+.card-num {
+}
+.card-num input {
+  display: block;
+  width: 100%;
+  border: solid 1.5px #999;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px -6px rgba(34, 60, 80, 0.6) inset;
+  height: 40px;
+}
+.card-holder input {
+}
+.card-date input {
+  width: 130px;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.card-date {
+  display: inline-block;
+}
+.card-cv {
+  float: right;
+}
+.card-cv input {
+  width: 50px;
+}
+button {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #19bd9a;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+@media (max-width: 320px) {
+  .card img {
+    display: none;
+  }
+  .card {
+    padding-top: 25px;
+    font-size: 16px;
+  }
+  .text-div {
+    font-size: 16px;
+  }
+}

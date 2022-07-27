@@ -31,6 +31,7 @@ smallContactBtn(".scroll-btn");
 smallContactBtn(".contact-block__btn");
 animNumber();
 newsReadmore();
+servicesBlock();
 
 function headerMove() {
   let header = document.querySelector(".header");
@@ -361,6 +362,40 @@ function animNumber() {
             clearInterval(interval);
           }
         }, 25);
+      }
+    });
+  });
+}
+
+function servicesBlock() {
+  let serButt = document.querySelectorAll(".services-icon");
+  let serBlocks = document.querySelectorAll(".services-block__left-text");
+  serButt.forEach((e) => {
+    e.addEventListener("click", () => {
+      serButt.forEach((e) => {
+        e.firstElementChild.setAttribute("src", "img/ellipse.png");
+      });
+      e.firstElementChild.setAttribute("src", "img/ellipse-green.png");
+      if (e.classList.contains("instrument")) {
+        serBlocks.forEach((e) => {
+          e.classList.remove("service-active");
+        });
+        serBlocks[0].classList.add("service-active");
+      } else if (e.classList.contains("kraska")) {
+        serBlocks.forEach((e) => {
+          e.classList.remove("service-active");
+        });
+        serBlocks[1].classList.add("service-active");
+      } else if (e.classList.contains("pad")) {
+        serBlocks.forEach((e) => {
+          e.classList.remove("service-active");
+        });
+        serBlocks[2].classList.add("service-active");
+      } else if (e.classList.contains("vilka")) {
+        serBlocks.forEach((e) => {
+          e.classList.remove("service-active");
+        });
+        serBlocks[3].classList.add("service-active");
       }
     });
   });
