@@ -449,6 +449,19 @@ function thanksForCoop() {
           "none";
         submiForm.firstElementChild.classList.remove("active-load");
       }, 5000);
+
+      if (element.id == "contact-btn") {
+        document
+          .querySelectorAll(".contact-big-block__inputs input")
+          .forEach((element) => {
+            element.value = "";
+          });
+        document.querySelector(
+          ".contact-big-block__bottom-inner textarea"
+        ).value = "Thanks!";
+      } else if (element.id == "sud-btn") {
+        document.querySelector(".subscribe-block__inner input").value = "";
+      }
     });
   });
 }
