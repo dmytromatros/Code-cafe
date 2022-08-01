@@ -1859,6 +1859,59 @@ $green-color: #19bd9a;
     color: $green-color;
   }
 }
+.submition-main {
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  z-index: 100;
+  transform: translateY(999px);
+  animation: none 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+
+  .submition-of-forma {
+    position: relative;
+    margin: auto;
+    height: 70px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #000;
+    span {
+      font-family: $openSans;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: $green-color;
+    }
+    ion-icon {
+      // color: $green-color;
+      font-size: 30px;
+      animation: none 0.1s linear;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+    }
+  }
+  .active-load {
+    &:before {
+      left: 0;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 5px;
+      background-color: $green-color;
+      animation: anim-load 2s linear;
+      animation-fill-mode: forwards;
+      animation-delay: 0.5s;
+    }
+  }
+  .move-back {
+    animation: anim-move-back 0.5s ease-in-out reverse;
+    animation-delay: 5s;
+  }
+}
 
 @keyframes anim-percatage {
   0% {
@@ -1866,6 +1919,38 @@ $green-color: #19bd9a;
   }
   100% {
     stroke-dashoffset: var(--rot);
+  }
+}
+@keyframes anim-load {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes anim-tick {
+  0% {
+    color: #333;
+  }
+  100% {
+    color: $green-color;
+  }
+}
+@keyframes anim-move {
+  0% {
+    transform: translateY(-999px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes anim-move-back {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-999px);
   }
 }
 

@@ -32,6 +32,7 @@ smallContactBtn(".contact-block__btn");
 animNumber();
 newsReadmore();
 servicesBlock();
+thanksForCoop();
 
 function headerMove() {
   let header = document.querySelector(".header");
@@ -430,4 +431,24 @@ function newsReadmore() {
     .addEventListener("click", () => {
       document.querySelector(".read-more-news").style.display = "none";
     });
+}
+
+function thanksForCoop() {
+  let submitBtn = document.querySelectorAll("button[type='submit']");
+  let submiForm = document.querySelector(".submition-main");
+  submitBtn.forEach((element) => {
+    element.addEventListener("click", () => {
+      submiForm.style.animationName = "anim-move";
+      // submiForm.classList.toggle("move-back");
+      submiForm.firstElementChild.lastElementChild.style.animationName =
+        "anim-tick";
+      submiForm.firstElementChild.classList.add("active-load");
+      setTimeout(() => {
+        submiForm.style.animationName = "anim-move-back";
+        submiForm.firstElementChild.lastElementChild.style.animationName =
+          "none";
+        submiForm.firstElementChild.classList.remove("active-load");
+      }, 5000);
+    });
+  });
 }
