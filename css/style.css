@@ -2354,6 +2354,29 @@ h6 {
           animation-delay: 5s;
 }
 
+.error-main {
+  -webkit-transform: translateY(-999px);
+          transform: translateY(-999px);
+}
+
+.error-main .error-of-forma {
+  width: 230px;
+}
+
+.error-main .error-of-forma span {
+  color: #ff3535;
+}
+
+.error-main .error-of-forma:before {
+  left: 0;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #ff3535;
+}
+
 @-webkit-keyframes anim-percatage {
   0% {
     stroke-dashoffset: 377;

@@ -1913,6 +1913,25 @@ $green-color: #19bd9a;
   }
 }
 
+.error-main {
+  transform: translateY(-999px);
+  .error-of-forma {
+    width: 230px;
+    span {
+      color: rgb(255, 53, 53);
+    }
+    &:before {
+      left: 0;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 5px;
+      width: 100%;
+      background-color: rgb(255, 53, 53);
+    }
+  }
+}
+
 @keyframes anim-percatage {
   0% {
     stroke-dashoffset: 377;

@@ -436,31 +436,88 @@ function newsReadmore() {
 function thanksForCoop() {
   let submitBtn = document.querySelectorAll("button[type='submit']");
   let submiForm = document.querySelector(".submition-main");
+  let errorForm = document.querySelector(".error-main");
+
   submitBtn.forEach((element) => {
     element.addEventListener("click", () => {
-      submiForm.style.animationName = "anim-move";
-      // submiForm.classList.toggle("move-back");
-      submiForm.firstElementChild.lastElementChild.style.animationName =
-        "anim-tick";
-      submiForm.firstElementChild.classList.add("active-load");
-      setTimeout(() => {
-        submiForm.style.animationName = "anim-move-back";
-        submiForm.firstElementChild.lastElementChild.style.animationName =
-          "none";
-        submiForm.firstElementChild.classList.remove("active-load");
-      }, 5000);
-
+      let srt = document.querySelector(
+        ".contact-big-block__bottom-inner textarea"
+      );
       if (element.id == "contact-btn") {
-        document
-          .querySelectorAll(".contact-big-block__inputs input")
-          .forEach((element) => {
-            element.value = "";
-          });
-        document.querySelector(
-          ".contact-big-block__bottom-inner textarea"
-        ).value = "Thanks!";
+        for (let i = 0; i < 3; i++) {
+          if (
+            document.querySelectorAll(".contact-big-block__inputs input")[i]
+              .value == ""
+          ) {
+            document.querySelectorAll(".contact-big-block__inputs input")[
+              i
+            ].style.backgroundColor = "rgba(255, 99, 99, 0.256)";
+            errorForm.style.animationName = "anim-move";
+            setTimeout(() => {
+              errorForm.style.animationName = "anim-move-back";
+            }, 2000);
+            return;
+          } else {
+            document.querySelectorAll(".contact-big-block__inputs input")[
+              i
+            ].style.backgroundColor = "rgba(99, 255, 109, 0.256)";
+          }
+        }
+
+        if (srt.value == "") {
+          errorForm.style.animationName = "anim-move";
+          setTimeout(() => {
+            errorForm.style.animationName = "anim-move-back";
+          }, 2000);
+          srt.style.background = "rgba(255, 99, 99, 0.256)";
+          return;
+        } else {
+          srt.style.background = "rgba(99, 255, 109, 0.256)";
+          document.querySelector(
+            ".contact-big-block__bottom-inner textarea"
+          ).value = "Thanks!";
+
+          for (let i = 0; i < 3; i++) {
+            document.querySelectorAll(".contact-big-block__inputs input")[
+              i
+            ].style.background = "rgba(99, 255, 109, 0.256)";
+          }
+
+          submiForm.style.animationName = "anim-move";
+          // submiForm.classList.toggle("move-back");
+          submiForm.firstElementChild.lastElementChild.style.animationName =
+            "anim-tick";
+          submiForm.firstElementChild.classList.add("active-load");
+          setTimeout(() => {
+            submiForm.style.animationName = "anim-move-back";
+            submiForm.firstElementChild.lastElementChild.style.animationName =
+              "none";
+            submiForm.firstElementChild.classList.remove("active-load");
+          }, 5000);
+        }
       } else if (element.id == "sud-btn") {
-        document.querySelector(".subscribe-block__inner input").value = "";
+        if (
+          document.querySelector(".subscribe-block__inner input").value == ""
+        ) {
+          errorForm.style.animationName = "anim-move";
+          setTimeout(() => {
+            errorForm.style.animationName = "anim-move-back";
+          }, 2000);
+        } else {
+          document.querySelector(".subscribe-block__inner input").value = "";
+
+          submiForm.style.animationName = "anim-move";
+          // submiForm.classList.toggle("move-back");
+          submiForm.firstElementChild.lastElementChild.style.animationName =
+            "anim-tick";
+          submiForm.firstElementChild.classList.add("active-load");
+          setTimeout(() => {
+            submiForm.style.animationName = "anim-move-back";
+            submiForm.firstElementChild.lastElementChild.style.animationName =
+              "none";
+            submiForm.firstElementChild.classList.remove("active-load");
+          }, 5000);
+        }
       }
     });
   });
